@@ -1,0 +1,238 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+.header {
+    display: flex;
+    flex-wrap: wrap;
+    box-sizing: border-box;
+    justify-content: space-around;
+    width: 100%;
+    height: 10vh;
+    background-color: black;
+}
+.header .bh a {
+    display: flex;
+    font-size: 30px;
+    color: white;
+    padding-top: 20px;
+    text-decoration: none;
+}
+.header .al a {
+    display: flex;
+    font-size: 30px;
+    color: white;
+    padding-top: 20px;
+    text-decoration: none;
+}
+.header .me a {
+    display: flex;
+    font-size: 30px;
+    color: white;
+    padding-top: 20px;
+    text-decoration: none;
+}
+.header .st a {
+    display: flex;
+    font-size: 30px;
+    color: white;
+    padding-top: 20px;
+    text-decoration: none;
+}
+.header .co a {
+    display: flex;
+    font-size: 30px;
+    color: white;
+    padding-top: 20px;
+    text-decoration: none;
+}
+.social {
+    display: flex;
+    padding-top: 20px;
+}
+.section {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    height: 838px;
+    background: url(pan2.jpg) no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.card {
+    background: url(bc1.PNG) no-repeat;
+    background-size: cover;
+    width: 350px;
+    height: 350px;
+    margin: 10px;
+}
+.card2 {
+    background: url(bc2.PNG) no-repeat;
+    background-size: cover;
+    width: 350px;
+    height: 350px;
+    margin: 10px;
+}
+.card3 {
+    background: url(bc3.PNG) no-repeat;
+    background-size: cover;
+    width: 350px;
+    height: 350px;
+    margin: 10px;
+}
+.card4 {
+    background: url(bc4.PNG) no-repeat;
+    background-size: cover;
+    width: 350px;
+    height: 350px;
+    margin: 10px;
+}
+.card5 {
+    background: url(bc5.PNG) no-repeat;
+    background-size: cover;
+    width: 350px;
+    height: 350px;
+    margin: 10px;
+}
+.card6 {
+    background: url(bc6.PNG) no-repeat;
+    background-size: cover;
+    width: 350px;
+    height: 350px;
+    margin: 10px;
+}
+.video {
+    position: absolute;
+    top: 57%;
+    left: 5%;
+}
+.video2 {
+    position: absolute;
+    top: 57%;
+    left: 65%;
+}
+@media screen and (max-width: 650px) {
+    * {
+        box-sizing: border-box;
+        margin: 0;
+        padding: 0;
+    }
+    .container {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+    }
+    .header {
+        display: flex;
+        flex-wrap: wrap;
+        box-sizing: border-box;
+        justify-content: space-around;
+        width: 100%;
+        height: 20vh;
+        background-color: black;
+    }
+    .header .bh a {
+        display: flex;
+        font-size: 30px;
+        color: white;
+        padding-top: 20px;
+        text-decoration: none;
+    }
+    .header .al a {
+        display: flex;
+        font-size: 30px;
+        color: white;
+        padding-top: 20px;
+        text-decoration: none;
+    }
+    .header .me a {
+        display: flex;
+        font-size: 30px;
+        color: white;
+        padding-top: 20px;
+        text-decoration: none;
+    }
+    .header .st a {
+        display: flex;
+        font-size: 30px;
+        color: white;
+        padding-top: 20px;
+        text-decoration: none;
+    }
+    .header .co a {
+        display: flex;
+        font-size: 30px;
+        color: white;
+        padding-top: 20px;
+        text-decoration: none;
+    }
+    .social {
+        display: flex;
+        padding-top: 20px;
+    }
+    .section {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        height: 896px;
+        background: url(pan2.jpg) no-repeat;
+        background-size: cover;
+        background-position: center;
+    }
+    .card {
+        background: url(bc1.PNG) no-repeat;
+        background-size: cover;
+        width: 350px;
+        height: 350px;
+        margin: 10px;
+    }
+    .card2 {
+        background: url(bc2.PNG) no-repeat;
+        background-size: cover;
+        width: 350px;
+        height: 350px;
+        margin: 10px;
+    }
+    .card3 {
+        background: url(bc3.PNG) no-repeat;
+        background-size: cover;
+        width: 350px;
+        height: 350px;
+        margin: 10px;
+    }
+    .card4 {
+        background: url(bc4.PNG) no-repeat;
+        background-size: cover;
+        width: 350px;
+        height: 350px;
+        margin: 10px;
+    }
+    .card5 {
+        background: url(bc5.PNG) no-repeat;
+        background-size: cover;
+        width: 350px;
+        height: 350px;
+        margin: 10px;
+    }
+    .card6 {
+        background: url(bc6.PNG) no-repeat;
+        background-size: cover;
+        width: 350px;
+        height: 350px;
+        margin: 10px;
+    }
+    .video {
+        visibility: hidden;
+    }
+    .video2 {
+        visibility: hidden;
+}
+}

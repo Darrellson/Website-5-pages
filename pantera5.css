@@ -1,0 +1,294 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+.header {
+    display: flex;
+    flex-wrap: wrap;
+    box-sizing: border-box;
+    justify-content: space-around;
+    width: 100%;
+    height: 10vh;
+    background-color: black;
+}
+.header .bh a {
+    display: flex;
+    font-size: 30px;
+    color: white;
+    padding-top: 20px;
+    text-decoration: none;
+}
+.header .al a {
+    display: flex;
+    font-size: 30px;
+    color: white;
+    padding-top: 20px;
+    text-decoration: none;
+}
+.header .me a {
+    display: flex;
+    font-size: 30px;
+    color: white;
+    padding-top: 20px;
+    text-decoration: none;
+}
+.header .st a {
+    display: flex;
+    font-size: 30px;
+    color: white;
+    padding-top: 20px;
+    text-decoration: none;
+}
+.header .co a {
+    display: flex;
+    font-size: 30px;
+    color: white;
+    padding-top: 20px;
+    text-decoration: none;
+}
+.social {
+    display: flex;
+    padding-top: 20px;
+}
+.section {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    height: 838px;
+    background: url(pan2.jpg) no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.section .form {
+    text-align: center;
+    width: 40%;
+    height: 80%;
+    background-color: rgba(255, 255, 255, 0.5);
+    backdrop-filter: blur(3px);
+    border-radius: 10px;
+}
+.form .text {
+    position: absolute;
+    justify-content: center;
+    padding: 5px;
+    top: 63%;
+    left: 20%;
+    width: 60%;
+    border-radius: 10px;
+}
+.form .sub {
+    position: absolute;
+    justify-content: center;
+    top: 55%;
+    left: 20%;
+    width: 60%;
+    height: 5%;
+    border-radius: 10px;
+    padding: 5px;
+}
+.form .email {
+    position: absolute;
+    justify-content: center;
+    top: 47%;
+    left: 20%;
+    width: 60%;
+    height: 5%;
+    border-radius: 10px;
+    padding: 5px;
+}
+.form .name {
+    position: absolute;
+    justify-content: center;
+    top: 39%;
+    left: 20%;
+    width: 60%;
+    height: 5%;
+    border-radius: 10px;
+    padding: 5px;
+}
+.form .btn {
+    position: absolute;
+    justify-content: center;
+    top: 90%;
+    left: 20%;
+    width: 12%;
+    height: 7%;
+    border-radius: 10px;
+    background-color: red;
+    color: white;
+}
+.form .btn2 {
+    position: absolute;
+    justify-content: center;
+    top: 92%;
+    left: 34%;
+    width: 7%;
+    height: 5%;
+    border-radius: 10px;
+    background-color: rgb(31, 46, 255);
+    color: white;
+}
+.form h2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 80px;
+    font-size: 30px;
+    color: rgb(0, 0, 0);
+}
+@media screen and (max-width: 650px) {
+    * {
+        box-sizing: border-box;
+        margin: 0;
+        padding: 0;
+    }
+    .container {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+    }
+    .header {
+        display: flex;
+        flex-wrap: wrap;
+        box-sizing: border-box;
+        justify-content: space-around;
+        width: 100%;
+        height: 20vh;
+        background-color: black;
+    }
+    .header .bh a {
+        display: flex;
+        font-size: 30px;
+        color: white;
+        padding-top: 20px;
+        text-decoration: none;
+    }
+    .header .al a {
+        display: flex;
+        font-size: 30px;
+        color: white;
+        padding-top: 20px;
+        text-decoration: none;
+    }
+    .header .me a {
+        display: flex;
+        font-size: 30px;
+        color: white;
+        padding-top: 20px;
+        text-decoration: none;
+    }
+    .header .st a {
+        display: flex;
+        font-size: 30px;
+        color: white;
+        padding-top: 20px;
+        text-decoration: none;
+    }
+    .header .co a {
+        display: flex;
+        font-size: 30px;
+        color: white;
+        padding-top: 20px;
+        text-decoration: none;
+    }
+    .social {
+        display: flex;
+        padding-top: 20px;
+    }
+    .section {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+        height: 838px;
+        background: url(pan2.jpg) no-repeat;
+        background-position: center;
+        background-size: cover;
+    }
+    .section .form {
+        text-align: center;
+        width: 90%;
+        height: 80%;
+        background-color: rgba(255, 255, 255, 0.5);
+        backdrop-filter: blur(3px);
+        border-radius: 10px;
+    }
+    .form .text {
+        position: absolute;
+        justify-content: center;
+        padding: 5px;
+        top: 63%;
+        left: 10%;
+        width: 80%;
+        border-radius: 10px;
+    }
+    .form .sub {
+        position: absolute;
+        justify-content: center;
+        top: 55%;
+        left: 10%;
+        width: 80%;
+        height: 5%;
+        border-radius: 10px;
+        padding: 5px;
+    }
+    .form .email {
+        position: absolute;
+        justify-content: center;
+        top: 47%;
+        left: 10%;
+        width: 80%;
+        height: 5%;
+        border-radius: 10px;
+        padding: 5px;
+    }
+    .form .name {
+        position: absolute;
+        justify-content: center;
+        top: 39%;
+        left: 10%;
+        width: 80%;
+        height: 5%;
+        border-radius: 10px;
+        padding: 5px;
+    }
+    .form .btn {
+        position: absolute;
+        justify-content: center;
+        top: 90%;
+        left: 10%;
+        width: 18%;
+        height: 7%;
+        border-radius: 10px;
+        background-color: red;
+        color: white;
+    }
+    .form .btn2 {
+        position: absolute;
+        justify-content: center;
+        top: 92%;
+        left: 34%;
+        width: 14%;
+        height: 5%;
+        border-radius: 10px;
+        background-color: rgb(31, 46, 255);
+        color: white;
+    }
+    .form h2 {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: 80px;
+        font-size: 30px;
+        color: rgb(0, 0, 0);
+    }
+}
